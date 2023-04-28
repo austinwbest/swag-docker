@@ -1,3 +1,3 @@
-# nginx
+# swag
 
-Custom nginx container for Notifiarr.com.
+Custom swag/nginx container for private use.
