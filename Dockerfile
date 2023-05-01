@@ -3,6 +3,7 @@ FROM ghcr.io/linuxserver/swag:latest@sha256:d5b4abe6452d8caeaf26946d4f4833d8cadf
 
 # Install custom packages.
 RUN apk add --update nodejs npm \
-    && npm install -g terser
+    && npm install -g terser \ 
+    && npm install -g rollup
 
 LABEL org.opencontainers.image.source = "https://github.com/TwitchCaptain/swag-docker"
